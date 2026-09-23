@@ -6,12 +6,10 @@ positions:
 - name: AI Researcher, VinMotion
 - name: Undergraduate Student, Hanoi University of Science and Technology (HUST)
 
-
 email: "duccuongtoan@gmail.com"
 cv_link: /cuongvd_CV.pdf
 gscholar: XLe9Z4sAAAAJ
 github: DucCuong12
-# twitter: your_twitter_id
 linkedin: van-duc-cuong-29a5202ab
 orcid: 0009-0008-6700-1477
 
@@ -30,27 +28,36 @@ short_bio: >-
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
-# portrait_caption: optional
 
 education:
 - name: Hanoi University of Science and Technology (HUST)
-  position: >-
-    B.Sc. in Computer Science, Talented Program <br/>
-    GPA: 3.82/4.00
+  position: B.Sc. in Computer Science, Talented Program
+  description: GPA 3.82/4.00 · CPA 3.81/4.00
   date: Oct. 2022 – Present
 - name: Phan Boi Chau Specialized High School
   position: Specialized Program in Mathematics
+  description: Third Prize, Vietnamese Mathematical Olympiad (National Level)
   date: 2019 – 2022
 
 experience:
 - name: VinMotion
   position: AI Researcher
+  description: >-
+    Research Vision-Language-Action models, foundation models, and scalable data generation
+    for embodied AI and humanoid-robot learning. Develop approaches for whole-body locomotion,
+    manipulation, long-horizon control, and multimodal robot learning.
   date: 2025 – Present
 - name: BKAI Laboratory, HUST
   position: Undergraduate Research Assistant
+  description: >-
+    Develop evolutionary algorithms and machine-learning methods for combinatorial optimization
+    and automated algorithm design. Investigate hybrid LLM–evolutionary frameworks for heuristic discovery.
   date: 2023 – Present
 - name: FPT Software AI Center
   position: AI Resident Researcher
+  description: >-
+    Collaborated with Tien’s Lab (UT Dallas) on LLMs for software engineering, including regression
+    testing, program reasoning, and specification inference. Built execution-aware multi-turn LLM frameworks.
   date: 2025 – 2026
 
 awards:

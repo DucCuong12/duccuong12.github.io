@@ -2,7 +2,8 @@
 title:          "SpecMind: Cognitively Inspired, Interactive Multi-Turn Framework for Postcondition Inference"
 date:           2026-07-01 00:01:00 +0700
 selected:       true
-pub:            "ACL"
+pub:            "ACL (Association for Computational Linguistics)"
+rank:           "CORE A*"
 pub_date:       "2026"
 abstract: >-
   A cognitively inspired multi-turn framework that treats LLMs as interactive reasoners for postcondition inference.

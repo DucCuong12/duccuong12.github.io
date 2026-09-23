@@ -9,13 +9,20 @@ navbar_title: Home
         {% include widgets/profile_card_mini.html %}
     </div>
     <div class="col-lg-9 col-md-8">
-
         {% include widgets/profile_card_bio_only.html %}
+    </div>
+</div>
 
-        {% if site.data.display.homepage.show_experience %}
-            {% include widgets/experience_card.html %}
-        {% endif %}
+{% if site.data.display.homepage.show_experience %}
+<div class="row">
+    <div class="col-12">
+        {% include widgets/experience_card.html %}
+    </div>
+</div>
+{% endif %}
 
+<div class="row">
+    <div class="col-12">
         {% if site.data.display.homepage.show_news %}
         {% assign count_news = site.news | size %}
         {% if count_news > 0 %}
@@ -28,7 +35,7 @@ navbar_title: Home
         {%
         include widgets/publication_card.html
         publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
+        title='Selected Publications'
         %}
         {% endif %}
     </div>

@@ -3,6 +3,7 @@ title:          "AutoMind: Automated Insight Discovery via Multi-Agent Navigatio
 date:           2026-01-15 00:01:00 +0700
 selected:       false
 pub:            "IEEE Access"
+rank:           "Q1"
 pub_date:       "2026"
 abstract: >-
   A multi-agent LLM framework for automated insight discovery through navigated data analysis workflows.
