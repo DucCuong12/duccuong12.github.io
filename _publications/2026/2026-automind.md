@@ -1,12 +1,15 @@
 ---
-title:          "AutoMind: Automated Insight Discovery via Multi-Agent Navigation"
-date:           2026-01-15 00:01:00 +0700
-selected:       false
-pub:            "IEEE Access"
-rank:           "Q1"
-pub_date:       "2026"
+title: "AutoMind: Automated Insight Discovery via Multi-Agent Navigation"
+date: 2026-05-01 00:01:00 +0700
+cv_order: 10
+kind: journal
+selected: true
+pub: "IEEE Access"
+rank: "Q1"
+pub_date: "2026"
 abstract: >-
-  A multi-agent LLM framework for automated insight discovery through navigated data analysis workflows.
+  Overview: AutoMind orchestrates multi-agent LLM navigation for end-to-end insight discovery—
+  automating analysis workflows that turn raw data into structured findings for non-expert users.
 authors:
   - Nguyen Thanh Cong
   - Nguyen Van Son

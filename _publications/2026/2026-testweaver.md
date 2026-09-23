@@ -1,12 +1,17 @@
 ---
-title:          "TestWeaver: Execution-aware, Feedback-driven Regression Testing Generation with Large Language Models"
-date:           2026-04-12 00:01:00 +0700
-selected:       true
-pub:            "ICSE (IEEE/ACM International Conference on Software Engineering)"
-rank:           "CORE A*"
-pub_date:       "2026"
+title: "TestWeaver: Execution-aware, Feedback-driven Regression Testing Generation with Large Language Models"
+date: 2026-10-01 00:01:00 +0700
+cv_order: 03
+kind: conference
+selected: true
+pub: "ICSE"
+rank: "CORE A*"
+pub_date: "2026"
+cover: /assets/images/covers/testweaver.jpg
 abstract: >-
-  An execution-aware, feedback-driven LLM framework for regression test generation that mitigates coverage plateaus via slicing, close-test retrieval, and inline state annotations.
+  Overview: TestWeaver breaks the LLM coverage plateau by weaving program analysis into test generation—
+  backward slicing for focus, closest-test retrieval for execution context, and inline runtime-state annotations—
+  then iterating with feedback to grow line/branch coverage on real Python projects.
 authors:
   - Cuong Chi Le*
   - Van Duc Cuong*

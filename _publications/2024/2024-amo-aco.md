@@ -1,12 +1,16 @@
 ---
-title:          "Alimentation Deep Multiple Optimal Ant Colony Optimization for the Vehicle Routing Problem with Time Windows"
-date:           2024-07-14 00:01:00 +0700
-selected:       false
-pub:            "GECCO Companion (Genetic and Evolutionary Computation Conference)"
-rank:           "CORE A"
-pub_date:       "2024"
+title: "Alimentation Deep Multiple Optimal Ant Colony Optimization for the Vehicle Routing Problem with Time Windows"
+date: 2024-07-14 00:01:00 +0700
+cv_order: 05
+kind: conference
+selected: true
+pub: "GECCO Companion"
+rank: "CORE A"
+pub_date: "2024"
 abstract: >-
-  A neural-enhanced multiple optimal ant colony optimization method for vehicle routing with time windows (ML4VRP competition entry).
+  Overview: AMO-ACO couples deep learning with multiple optimal ant colonies for CVRPTW, transferring
+  knowledge across capacity and time-window constraints and exploring diverse colony trajectories—
+  submitted to the GECCO 2024 ML4VRP competition.
 authors:
   - Ha Minh Hieu
   - Hung Phan

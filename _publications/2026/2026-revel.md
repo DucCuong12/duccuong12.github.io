@@ -1,12 +1,17 @@
 ---
-title:          "ReVEL: Multi-Turn Reflective LLM-Guided Heuristic Evolution via Structured Performance Feedback"
-date:           2026-04-01 00:01:00 +0700
-selected:       true
-pub:            "Findings of EMNLP"
-rank:           "CORE A*"
-pub_date:       "2026"
+title: "ReVEL: Multi-Turn Reflective LLM-Guided Heuristic Evolution via Structured Performance Feedback"
+date: 2026-12-01 00:01:00 +0700
+cv_order: 01
+kind: conference
+selected: true
+pub: "Findings of EMNLP"
+rank: "CORE A*"
+pub_date: "2026"
+cover: /assets/images/covers/revel.jpg
 abstract: >-
-  A multi-turn reflective LLM-guided framework that evolves heuristics via structured performance feedback for combinatorial optimization.
+  Overview: ReVEL embeds an LLM as a multi-turn reflective reasoner inside an evolutionary loop.
+  Heuristics are grouped by optimization behavior; the LLM refines them with structured performance feedback,
+  while a meta-controller balances exploration and exploitation across combinatorial benchmarks.
 authors:
   - Van Duc Cuong
   - Nguyen Dinh Tuan Minh

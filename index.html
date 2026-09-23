@@ -14,29 +14,21 @@ navbar_title: Home
 </div>
 
 {% if site.data.display.homepage.show_experience %}
-<div class="row">
-    <div class="col-12">
-        {% include widgets/experience_card.html %}
-    </div>
-</div>
+{% include widgets/experience_card.html %}
 {% endif %}
 
-<div class="row">
-    <div class="col-12">
-        {% if site.data.display.homepage.show_news %}
-        {% assign count_news = site.news | size %}
-        {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-        {% endif %}
-        {% endif %}
+{% if site.data.display.homepage.show_news %}
+{% assign count_news = site.news | size %}
+{% if count_news > 0 %}
+{% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
+{% endif %}
+{% endif %}
 
-        {% if site.data.display.homepage.show_selected_publications %}
-        {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-        {%
-        include widgets/publication_card.html
-        publications=pubs
-        title='Selected Publications'
-        %}
-        {% endif %}
-    </div>
-</div>
+{% if site.data.display.homepage.show_selected_publications %}
+{% assign pubs = site.publications | sort: "cv_order" %}
+{%
+include widgets/publication_card.html
+publications=pubs
+title='Publications'
+%}
+{% endif %}

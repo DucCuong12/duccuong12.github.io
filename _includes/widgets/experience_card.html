@@ -1,62 +1,71 @@
-<div class="row mt-3">
+<div class="row mt-4">
     <div class="col">
-        <div class="card border-0 shadow-sm bg-white exp-card">
-            <div class="card-body p-4 p-lg-5">
+        <div class="panel">
 
-                {% if site.data.profile.education %}
-                <section class="exp-section">
-                    <h4 class="exp-section-title">Education</h4>
-                    <ul class="list-unstyled exp-list mb-0">
-                        {% for item in site.data.profile.education %}
-                        <li class="exp-item">
-                            <div class="exp-item-main">
-                                <div class="exp-role">{{ item.position }}</div>
-                                <div class="exp-org">{{ item.name }}{% if item.dept %} · {{ item.dept }}{% endif %}</div>
-                            </div>
-                            <div class="exp-date">{{ item.date }}</div>
-                        </li>
+            {% if site.data.profile.education %}
+            <section class="cv-block">
+                <h3 class="cv-heading">Education</h3>
+                {% for item in site.data.profile.education %}
+                <article class="cv-entry">
+                    <div class="cv-entry-head">
+                        <div>
+                            <div class="cv-org">{{ item.name }}</div>
+                            <div class="cv-role">{{ item.position }}</div>
+                            {% if item.location %}<div class="cv-location">{{ item.location }}</div>{% endif %}
+                        </div>
+                        <div class="cv-date">{{ item.date }}</div>
+                    </div>
+                    {% if item.bullets %}
+                    <ul class="cv-bullets">
+                        {% for b in item.bullets %}
+                        <li>{{ b }}</li>
                         {% endfor %}
                     </ul>
-                </section>
-                {% endif %}
+                    {% endif %}
+                </article>
+                {% endfor %}
+            </section>
+            {% endif %}
 
-                {% if site.data.profile.experience %}
-                <section class="exp-section">
-                    <h4 class="exp-section-title">Experience</h4>
-                    <ul class="list-unstyled exp-list mb-0">
-                        {% for item in site.data.profile.experience %}
-                        <li class="exp-item">
-                            <div class="exp-item-main">
-                                <div class="exp-role">{{ item.position }}</div>
-                                <div class="exp-org">{{ item.name }}{% if item.dept %} · {{ item.dept }}{% endif %}</div>
-                                {% if item.description %}
-                                <div class="exp-desc">{{ item.description }}</div>
-                                {% endif %}
-                            </div>
-                            <div class="exp-date">{{ item.date }}</div>
-                        </li>
+            {% if site.data.profile.experience %}
+            <section class="cv-block">
+                <h3 class="cv-heading">Experience</h3>
+                {% for item in site.data.profile.experience %}
+                <article class="cv-entry">
+                    <div class="cv-entry-head">
+                        <div>
+                            <div class="cv-org">{{ item.name }}</div>
+                            <div class="cv-role">{{ item.position }}</div>
+                            {% if item.location %}<div class="cv-location">{{ item.location }}</div>{% endif %}
+                        </div>
+                        <div class="cv-date">{{ item.date }}</div>
+                    </div>
+                    {% if item.bullets %}
+                    <ul class="cv-bullets">
+                        {% for b in item.bullets %}
+                        <li>{{ b }}</li>
                         {% endfor %}
                     </ul>
-                </section>
-                {% endif %}
+                    {% endif %}
+                </article>
+                {% endfor %}
+            </section>
+            {% endif %}
 
-                {% if site.data.profile.awards %}
-                <section class="exp-section exp-section-last">
-                    <h4 class="exp-section-title">Honors &amp; Awards</h4>
-                    <ul class="list-unstyled exp-list mb-0">
-                        {% for item in site.data.profile.awards %}
-                        <li class="exp-item exp-item-award">
-                            <div class="exp-item-main">
-                                <div class="exp-role exp-award-name">{{ item.name }}</div>
-                            </div>
-                            <div class="exp-date">{{ item.date }}</div>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </section>
-                {% endif %}
+            {% if site.data.profile.awards %}
+            <section class="cv-block cv-block-last">
+                <h3 class="cv-heading">Honors &amp; Awards</h3>
+                <ul class="cv-awards">
+                    {% for item in site.data.profile.awards %}
+                    <li>
+                        <span class="cv-award-name">{{ item.name }}</span>
+                        <span class="cv-date">{{ item.date }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
 
-            </div>
         </div>
     </div>
 </div>
