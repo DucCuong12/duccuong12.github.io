@@ -7,7 +7,7 @@ selected: true
 pub: "Findings of EMNLP"
 rank: "CORE A*"
 pub_date: "2026"
-cover: /assets/images/covers/revel.jpg
+cover: /assets/images/covers/revel-overview.jpg
 abstract: >-
   Overview: ReVEL embeds an LLM as a multi-turn reflective reasoner inside an evolutionary loop.
   Heuristics are grouped by optimization behavior; the LLM refines them with structured performance feedback,
