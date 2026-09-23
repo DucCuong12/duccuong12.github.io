@@ -7,6 +7,7 @@ selected: true
 pub: "GECCO Companion"
 rank: "CORE A"
 pub_date: "2024"
+cover: /assets/images/covers/amo-aco.jpg
 abstract: >-
   Overview: AMO-ACO couples deep learning with multiple optimal ant colonies for CVRPTW, transferring
   knowledge across capacity and time-window constraints and exploring diverse colony trajectories—

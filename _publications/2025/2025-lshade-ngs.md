@@ -7,6 +7,7 @@ selected: true
 pub: "Neural Computing and Applications"
 rank: "Q1"
 pub_date: "2025"
+cover: /assets/images/covers/lshade-ngs.jpg
 abstract: >-
   Overview: LSHADE-NGS navigates each generation toward promising regions for Q-coverage in directional sensor
   networks—HA-JADE mutation and greedily-jumped binomial crossover improve coverage balance under/over provisioning

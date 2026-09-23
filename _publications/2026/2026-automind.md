@@ -7,6 +7,7 @@ selected: true
 pub: "IEEE Access"
 rank: "Q1"
 pub_date: "2026"
+cover: /assets/images/covers/automind.jpg
 abstract: >-
   Overview: AutoMind orchestrates multi-agent LLM navigation for end-to-end insight discovery—
   automating analysis workflows that turn raw data into structured findings for non-expert users.
