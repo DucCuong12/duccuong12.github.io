@@ -1,7 +1,7 @@
 ---
 title: "COMPASS: Composable Policy-Amortized Structured Search for LLM-Based Optimization Modeling"
 date: 2026-11-01 00:01:00 +0700
-cv_order: 02
+cv_order: 2
 kind: conference
 selected: true
 pub: "NeurIPS"

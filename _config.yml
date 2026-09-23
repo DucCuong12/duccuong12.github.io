@@ -12,3 +12,16 @@ timezone: Asia/Ho_Chi_Minh
 collections:
   - publications
   - news
+
+
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: null
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: null

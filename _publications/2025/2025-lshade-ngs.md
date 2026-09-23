@@ -1,7 +1,7 @@
 ---
 title: "LSHADE-NGS: Enhancing Q-Coverage in Directional Sensor Networks through Navigated Generation Search"
 date: 2025-08-14 00:01:00 +0700
-cv_order: 08
+cv_order: 8
 kind: journal
 selected: true
 pub: "Neural Computing and Applications"

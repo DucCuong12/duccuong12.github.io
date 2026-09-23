@@ -1,7 +1,7 @@
 ---
 title: "FLUID: Flow-Latent Unified Integration via Token Distillation for Expert Specialization in Multimodal Learning"
 date: 2026-07-01 00:01:00 +0700
-cv_order: 07
+cv_order: 7
 kind: conference
 selected: true
 pub: "SOICT"

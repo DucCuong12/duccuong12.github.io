@@ -1,7 +1,7 @@
 ---
 title: "MiRAGE: Misconception Detection with Retrieval-Guided Multi-Stage Reasoning and Ensemble Fusion"
 date: 2026-08-01 00:01:00 +0700
-cv_order: 06
+cv_order: 6
 kind: conference
 selected: true
 pub: "SOICT"

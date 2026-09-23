@@ -1,7 +1,7 @@
 ---
 title: "Alimentation Deep Multiple Optimal Ant Colony Optimization for the Vehicle Routing Problem with Time Windows"
 date: 2024-07-14 00:01:00 +0700
-cv_order: 05
+cv_order: 5
 kind: conference
 selected: true
 pub: "GECCO Companion"

@@ -1,7 +1,7 @@
 ---
 title: "TestWeaver: Execution-aware, Feedback-driven Regression Testing Generation with Large Language Models"
 date: 2026-10-01 00:01:00 +0700
-cv_order: 03
+cv_order: 3
 kind: conference
 selected: true
 pub: "ICSE"

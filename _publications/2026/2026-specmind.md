@@ -1,7 +1,7 @@
 ---
 title: "SpecMind: Cognitively Inspired, Interactive Multi-Turn Framework for Postcondition Inference"
 date: 2026-09-01 00:01:00 +0700
-cv_order: 04
+cv_order: 4
 kind: conference
 selected: true
 pub: "ACL"
