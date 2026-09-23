@@ -37,12 +37,6 @@ education:
   bullets:
     - "GPA: 3.82/4.00; CPA: 3.81/4.00."
     - "Relevant coursework: Probability and Statistics, Discrete Mathematics, Optimization Methods, and Data Structures and Algorithms (4.0)."
-- name: Phan Boi Chau Specialized High School
-  location: Nghe An, Vietnam
-  position: Specialized Program in Mathematics
-  date: 2019 – 2022
-  bullets:
-    - "Third Prize, Vietnamese Mathematical Olympiad (National Level)."
 
 experience:
 - name: VinMotion

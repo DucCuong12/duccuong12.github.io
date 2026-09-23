@@ -7,7 +7,7 @@ selected: true
 pub: "NeurIPS"
 rank: "CORE A*"
 pub_date: "2026"
-cover: /assets/images/covers/compass.png
+cover: /assets/images/covers/compass.jpg
 abstract: >-
   Overview: COMPASS solves natural-language optimization problems by searching a DAG template library
   (routing, facility location, scheduling, …) with an LLM + Q-learning scorer and beam search,
