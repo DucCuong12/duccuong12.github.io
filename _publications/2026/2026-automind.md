@@ -1,7 +1,7 @@
 ---
 title: "AutoMind: Automated Insight Discovery via Multi-Agent Navigation"
 date: 2026-05-01 00:01:00 +0700
-cv_order: 10
+cv_order: 11
 kind: journal
 selected: true
 pub: "IEEE Access"

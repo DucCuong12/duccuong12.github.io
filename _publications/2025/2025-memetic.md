@@ -1,7 +1,7 @@
 ---
 title: "Memetic Algorithm for Maximizing K-Coverage and K-Connectivity in Wireless Sensor Networks"
 date: 2025-01-01 00:01:00 +0700
-cv_order: 11
+cv_order: 12
 kind: journal
 selected: true
 pub: "Informatica"

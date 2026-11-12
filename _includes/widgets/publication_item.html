@@ -19,7 +19,9 @@
                 {{ item.pub_last }}
             </div>
             <h3 class="pub-title">{{ item.title }}</h3>
+            {% if item.authors %}
             <p class="pub-authors">{% include widgets/author_list.html authors=item.authors %}</p>
+            {% endif %}
             {% if item.abstract %}
             <p class="pub-abstract">{{ item.abstract }}</p>
             {% endif %}
